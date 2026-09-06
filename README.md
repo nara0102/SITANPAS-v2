@@ -4,6 +4,7 @@
 
 [![Version 2.0.0](https://img.shields.io/badge/Version-2.0.0-blue.svg)](#-tentang-sitanpas-v2)
 [![DRPM 2025](https://img.shields.io/badge/Hibah-DRPM_Kemendiktisaintek_2025-green.svg)](#-konteks-akademik--program)
+[![DOI](https://img.shields.io/badge/DOI-10.13140%2FRG.2.2.17822.91204-blue)](https://doi.org/10.13140/RG.2.2.17822.91204)
 [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#-lisensi)
 
 ---
@@ -55,7 +56,37 @@ Platform ini dikembangkan dan diimplementasikan sebagai bagian dari **Luaran Uta
 
 ---
 
-## 📚 Dokumentasi Arsitektur & Panduan Terpisah
+## 🔗 Artefak Riset Terbuka (Open-Science Datasets)
+
+Sebagai bentuk komitmen pada *open-science*, data empiris dan *benchmark* penelitian yang dihasilkan dari arsitektur SITANPAS v2 ini tersedia secara publik di Kaggle untuk keperluan pemodelan *Artificial Intelligence* (AI) dan *Natural Language Processing* (NLP):
+
+1. **[South Ambesia Coastal Fishery & Marine Products](https://www.kaggle.com/datasets/nara0102/south-ambesia-coastal-fishery-and-marine-products):** Dataset katalog produk, harga historis, dan matriks *ground-truth* pengujian Information Retrieval (IR).
+2. **[SITANPAS: Coastal Fishery IoT Smart Scale Telemetry](https://www.kaggle.com/datasets/nara0102/sitanpas-iot-smart-scale-telemetry):** Dataset riwayat telemetri (713 rekaman) dari purwarupa IoT timbangan beban (*strain-gauge load cell* / ESP32).
+
+---
+
+## 📚 Publikasi Akademik & Sitasi
+
+Jika Anda menggunakan *source code*, arsitektur sistem, atau dataset dari proyek ini untuk keperluan riset akademis, mohon sitasi *Working Paper* teknis kami:
+
+**Text Citation (IEEE):**
+> L. Hakim and Y. A. Rahman, "SITANPAS v2: Evolution of a Digital Fish-Catch Information and Marketing Platform for South Ambesia, Central Sulawesi, Indonesia," Technical Working Paper, Faculty of Engineering, Tadulako University, Palu, Indonesia, 2026. DOI: 10.13140/RG.2.2.17822.91204
+
+**BibTeX:**
+```bibtex
+@techreport{hakim2026sitanpasv2,
+  author      = {Hakim, Lukman and Rahman, Yuli Asmi},
+  title       = {{SITANPAS v2: Evolution of a Digital Fish-Catch Information and Marketing Platform for South Ambesia, Central Sulawesi, Indonesia}},
+  institution = {Faculty of Engineering, Tadulako University},
+  year        = {2026},
+  type        = {Technical Working Paper},
+  address     = {Palu, Indonesia},
+  doi         = {10.13140/RG.2.2.17822.91204},
+  url         = {[https://www.researchgate.net/publication/414034353_SITANPAS_v2_Evolution_of_a_Digital_Fish-Catch_Information_and_Marketing_Platform_for_South_Ambesia_Central_Sulawesi_Indonesia](https://www.researchgate.net/publication/414034353_SITANPAS_v2_Evolution_of_a_Digital_Fish-Catch_Information_and_Marketing_Platform_for_South_Ambesia_Central_Sulawesi_Indonesia)}
+}
+```
+
+## 📄 Dokumentasi Arsitektur & Panduan Terpisah
 
 Untuk menjaga kebersihan dokumentasi utama, rincian teknis, struktur folder, skema database, hingga panduan instalasi telah dipisahkan ke dalam direktori [`/md`](./md/):
 
