@@ -1,6 +1,6 @@
 # 🐟 SITANPAS v2 — Sistem Informasi Tangkapan Nelayan dan Pemasaran
 
-![SITANPAS v2 Banner & Kolaborasi Akademik](public/SITANPAS_v2.png)
+![SITANPAS v2 Banner & Kolaborasi Akademik](public/SITANPAS.png)
 
 [![Version 2.0.0](https://img.shields.io/badge/Version-2.0.0-blue.svg)](#-tentang-sitanpas-v2)
 [![DRPM 2025](https://img.shields.io/badge/Hibah-DRPM_Kemendiktisaintek_2025-green.svg)](#-konteks-akademik--program)
