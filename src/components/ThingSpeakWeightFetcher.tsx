@@ -35,7 +35,7 @@ const ThingSpeakWeightFetcher: React.FC<ThingSpeakWeightFetcherProps> = memo(({
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [error, setError] = useState<string | null>(null);
   const isRequestInProgress = useRef(false);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Function to toggle sensor on/off with React.startTransition fix
   const toggleSensor = useCallback((enabled: boolean) => {
